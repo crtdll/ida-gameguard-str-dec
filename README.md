@@ -1,6 +1,6 @@
 # GameGuard String Decryption (IDA)
 
-This script is designed to identify the decryption function within any GameGuard module, decrypting them and subsequently labeling them in both the decompilation and assembly, while also outputting them to a file.
+This script is designed to identify the decryption function within any GameGuard module, decrypt strings passed to it and subsequently label them in both the decompilation and assembly, while also outputting them to a file.
 
 ## Usage
 Load your preferred GameGuard module dump into IDA, then utilize `File -> Script File` to load it.
